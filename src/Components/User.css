@@ -1,0 +1,12 @@
+.card {
+    padding: 15px 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    top: 40%;
+    left: 20%;
+    transition: 0.3s;
+    height: 50%;
+    width: 30%;
+    background-color: rgb(155, 162, 162);
+    border: 0px;
+    border-style: double;
+  }
