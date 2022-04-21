@@ -1,12 +1,21 @@
-.card {
-    padding: 15px 32px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    top: 40%;
-    left: 20%;
+
+  .card{
+    display: flex;
+    padding: 20px 10px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(198, 228, 227, 0.2);
+    background-color: rgb(180, 142, 184);
+    justify-content: space-between;
     transition: 0.3s;
-    height: 50%;
-    width: 30%;
-    background-color: rgb(155, 162, 162);
-    border: 0px;
-    border-style: double;
-  }
+    margin-right: 20px;
+    
+   }
+   
+   
+   .container {
+    padding: 5px 10px 10px 125px;
+    background-color: rgb(192, 184, 198);
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }

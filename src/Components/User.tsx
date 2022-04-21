@@ -4,15 +4,15 @@ import "./User.css";
 const User: React.FC<IProps> = (props) => {
   return (
     <div className="card">
-      <div className="container">
+      
         <h4>
-          <b>{props.item.first_name}</b>
-          <b>{props.item.last_name}</b>
+          <b>{props.item.id}</b><br></br>
+          {props.item.last_name}<br></br>
+          {props.item.email}<br></br>
         </h4>
 
         <p></p>
-      </div>
-    </div>
+        </div>
   );
 };
 export default User;

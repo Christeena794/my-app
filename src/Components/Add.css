@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(235, 243, 241, 0.238);
+}
+
+.form{
+    border: 2px;
+}
+.register{
+    border: 10px;
+    background-color: rgba(221, 233, 234, 0.737);
+    
+}
+.btn{
+    border: 2px;
+}
