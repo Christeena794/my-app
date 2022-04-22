@@ -4,12 +4,29 @@ body{
 
 .form{
     border: 2px;
+    align-content:flex-start;
+    text-align: center;
 }
 .register{
     border: 10px;
     background-color: rgba(221, 233, 234, 0.737);
+    border: 1px solid rgb(43, 152, 87);
+    text-align: left;
+    font-size: 15px;
+    border-radius: 15px;
     
 }
 .btn{
     border: 2px;
+}
+.header{
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+.save{
+    border-color: blueviolet;
+    background-color: aquamarine;
+    flex-wrap: wrap;
 }

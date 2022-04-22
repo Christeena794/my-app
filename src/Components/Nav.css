@@ -1,0 +1,11 @@
+.nav{
+background-color: rgb(35, 82, 43);
+font: 200;
+font-size: large;
+font-family: sans-serif;
+color: maroon;
+text-shadow: 0 0 3px #dfdee3, 0 0 5px #0000FF;
+border: 1px solid rgb(166, 33, 121);
+text-align: center;
+height: 50px;
+}

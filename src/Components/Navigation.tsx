@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./Nav.css";
 
 type Props = {};
 const Navigation = (props: Props) => {
   return (
-    <div className="font-serif text-3xl font-bold text-white bg-blue-700 background 700">EMPLOYEE MANAGEMENT SYSTEM{" "}
    
+   <div className="nav">
+     <h2>EMPLOYEE MANAGEMENT SYSTEM</h2>
     </div>
   );
 };
