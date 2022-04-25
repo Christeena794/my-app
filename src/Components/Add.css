@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(235, 243, 241, 0.238);
+    background-color: rgba(74, 202, 39, 0.238);
 }
 
 .form{
@@ -9,7 +9,7 @@ body{
 }
 .register{
     border: 10px;
-    background-color: rgba(221, 233, 234, 0.737);
+    background-color: rgba(171, 51, 157, 0.737);
     border: 1px solid rgb(43, 152, 87);
     text-align: left;
     font-size: 15px;
