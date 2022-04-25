@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Add from "./Add";
 import "./Add.tsx";
 import "./Search.css";
@@ -16,10 +16,11 @@ const Search:React.FC<IProps> = () => {
         <button type="submit" className="text-sm text-white bg-purple-500 ">Go</button>
         
       </form>
-      <Link to="/add" >Add User</Link>
-      {/* <button type="submit" className=".btn" >ADD USER{" "}</button> */}
+      <div>
+      <Link to={"/add"} >Add User</Link>
+    
       
-      {/* {formView && <Add />} */}
+      </div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ function App() {
   const [userdata, setUsersData] = useState<IUser[]>([]);
 
     useEffect(() => {
-    setUserstate(apidata);
+    return setUserstate(apidata);
   }, []);
  
 

@@ -11,7 +11,7 @@ const Add = (props: Props) => {
 
   // const [lastName, setLastName] = useState("");
 
-  // const [Emailid, setEmail] = useState("");
+  // const [Email, setEmail] = useState("");
 
   // const [Gender, setGender] = useState("");
 
@@ -67,6 +67,7 @@ const Add = (props: Props) => {
         <h3>ADD USER DETAILS</h3></div>  
    
     <form className="form">
+    
         <label >Firstname   : <input type="text" name="firstname"/></label><br></br><br></br>
         <label>Lastname     : <input type="text" name="lastname"/></label><br></br><br></br>
         <label>Gender       :</label>
