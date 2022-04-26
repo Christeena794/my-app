@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 //import apiData from './apidata.json'
 import User from "./User";
 import "./Usercontainer.css";
-import { IUser } from "../types";
+import IUser from "../types";
+import { getMaxListeners } from "process";
 
 const Usercontainer:React.FC<IProps> = (props) => {
   // const [usersData, setUsersData] = useState<IUser[]>([]);
@@ -33,3 +34,4 @@ export default Usercontainer;
 interface IProps{
   userdata : IUser[]
 }
+

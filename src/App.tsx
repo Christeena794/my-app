@@ -4,7 +4,7 @@ import Navigation from "./Components/Navigation";
 import Search from "./Components/Search";
 import Usercontainer from "./Components/Usercontainer";
 import apidata from './apidata.json';
-import { IUser } from "./types";
+import IUser  from "./types";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Add from "./Components/Add";
 
