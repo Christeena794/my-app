@@ -128,7 +128,7 @@ function Add()
         </label>
         <br></br>
         <br></br>
-        <button type="submit" className="save">
+        <button  type="submit" className="save">
           Save
         </button>
         <br></br>

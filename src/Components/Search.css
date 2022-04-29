@@ -19,10 +19,11 @@
     margin-left:5px;
     width:30%;
     padding: 7px 40px;
-    background-color: rgb(206, 209, 211);
+    background-color: rgb(16, 148, 30);
     cursor: pointer;
-    font-size:small;
+    font-size:x-large;
     font-weight: bold;
     border: 0px;
     border-color: black;
+    justify-content: end;
 }

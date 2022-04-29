@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-//import apiData from './apidata.json'
+import apiData from '../apidata.json';
 import User from "./User";
 import "./Usercontainer.css";
 import IUser from "../types";
-import { getMaxListeners } from "process";
+//import { getMaxListeners } from "process";
 
 const Usercontainer:React.FC<IProps> = (props) => {
-  // const [usersData, setUsersData] = useState<IUser[]>([]);
+  const [usersData, setUsersData] = useState<IUser[]>([]);
 
   useEffect(() => {
-    
+    setUsersData(props.userdata)
   }, []);
 
   //  async function fetchUserData() {
@@ -21,11 +21,20 @@ const Usercontainer:React.FC<IProps> = (props) => {
     //   console.log(data);
     // };
     return (
+      <div>
+      <form className="example">
+  <input type="text" placeholder="Search.." name="search"/>
+  <button type="submit"><i className="fa fa-search"></i></button>
+</form>
+    
       <div className="grid-container">
         {props.userdata.map((item) => (
           <User item={item} key={item.id} />
+          
         ))}
-      </div>
+        </div>
+        </div>
+          
     );
   }
 

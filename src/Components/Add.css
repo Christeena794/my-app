@@ -5,24 +5,30 @@ body{
 .form{
     border: 2px;
     align-content:flex-start;
-    text-align: center;
+    text-align: left;
 }
 .register{
     border: 10px;
-    background-color: rgba(171, 51, 157, 0.737);
+    background-color: rgba(167, 143, 164, 0.737);
     border: 1px solid rgb(43, 152, 87);
     text-align: left;
     font-size: 15px;
     border-radius: 15px;
     
 }
-.btn{
+.save{
     border: 2px;
+    color: blue;
+    background-color: chartreuse;
+
 }
 .header{
     align-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
+    font: bold;
+    text-align: center;
+   font-size:xx-large;
     
 }
 .save{

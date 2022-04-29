@@ -1,5 +1,5 @@
 export default interface IUser {
-    id:number;
+  id:number;
     first_name:string;
     last_name?:string;
     email?:string;
@@ -10,5 +10,5 @@ export default interface IUser {
     department?: string,
     date_of_birth?:string,
     language?: string,
-    search?: string,
+    
 }
